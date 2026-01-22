@@ -123,7 +123,7 @@ function login(){
     })
     .then(user => {
         localStorage.setItem("user", JSON.stringify(user));
-        location.href = "calculadora.html";
+        location.href = "index.html";
     })
     .catch(err => {
         errorDiv.innerText = "Usuário ou senha incorretos!";
@@ -133,3 +133,4 @@ function login(){
 
 </body>
 </html>
+
